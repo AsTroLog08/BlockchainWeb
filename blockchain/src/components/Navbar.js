@@ -29,7 +29,7 @@ export default function Navbar(){
         }
         };
     }, []);
-    
+
     const handleAccountsChanged = (accounts) => {
         if (accounts.length === 0) {
           // Користувач від'єднав гаманець
@@ -82,15 +82,39 @@ export default function Navbar(){
         <img className="nav-logo" src={logo} alt="Logo" />
         Cryptic
       </a>
+    <div className="nav-ul-right">
+        <ul className="nav-ul">
+            {isAuthenticated ? (
+            <>
+                <li className="search-img">
+                <a href="/search">Image search</a>
+                </li>
+                <li className="upload-img">
+                <a href="/upload">Upload image</a>
+                </li>
+            
+            </>
+            ) : (
+            <>
+            </>
+            )}
+        </ul>
+    </div>
+
+
       <ul className="nav-ul">
         {isAuthenticated ? (
           <>
             <li className="user-info">
-              <span>Welcome, {sessionStorage.getItem("auth").slice(0, 6)}...</span>
+                <a href="/profile">
+                    Welcome, {sessionStorage.getItem("auth")?.slice(0, 5) + "..." + sessionStorage.getItem("auth")?.slice(-4)}
+                </a>
             </li>
+            {/* 
             <li className="log-out">
               <button onClick={logout}>Logout</button>
             </li>
+            */}
           </>
         ) : (
           <li className="log-in">

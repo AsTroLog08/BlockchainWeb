@@ -1,0 +1,109 @@
+/* Profile.css */
+
+.section-first-profile {
+    padding: 20px;
+    max-width: 800px;
+    margin: 90px auto; /* Відступ зверху та знизу */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-first-profile h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .section-first-profile ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section-first-profile li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .section-first-profile li span {
+    font-size: 1rem;
+    color: #555;
+    flex-grow: 1;
+  }
+  
+  .section-first-profile li input[type="text"] {
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex-grow: 1;
+  }
+
+  
+  .section-first-profile li button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .section-first-profile li button:hover {
+    background-color: #0056b3;
+  }
+  .section-first-profile li button:nth-child(2) {
+    background-color: rgb(221, 144, 0);
+  }
+  
+  
+  .section-first-profile li button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .section-first-profile li button:last-child:hover {
+    background-color: #a71d2a;
+  }
+  
+  .section-first-profile div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .section-first-profile div input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .section-first-profile div button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .section-first-profile div button:hover {
+    background-color: #218838;
+  }
+  

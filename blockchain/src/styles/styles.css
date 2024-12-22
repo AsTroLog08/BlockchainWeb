@@ -10,8 +10,6 @@ button{
 }
 .container-60px{
     margin: 0px 60px;
-    border: 1px solid;
-    color: #b0c20a;
     padding: 0;
     justify-content: center;
 
@@ -19,8 +17,6 @@ button{
 
 .container-240px{
     margin: 0px 240px;
-    border: 1px solid;
-    color: #0a26c2;
     justify-content: center;
 }
 
