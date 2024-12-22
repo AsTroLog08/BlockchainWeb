@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-color: #000411;
+    font-family: Outfit;
+}
+button{
+    cursor: pointer;
+    background: none; 
+    border: none; 
+}
+.container-60px{
+    margin: 0px 60px;
+    border: 1px solid;
+    color: #b0c20a;
+    padding: 0;
+    justify-content: center;
+
+}
+
+.container-240px{
+    margin: 0px 240px;
+    border: 1px solid;
+    color: #0a26c2;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: K2D;
+    src: url(../assets/fonts/K2D-Regular.ttf);
+}
+@font-face {
+    font-family: Outfit;
+    src: url(../assets/fonts/Outfit-VariableFont_wght.ttf);
+}

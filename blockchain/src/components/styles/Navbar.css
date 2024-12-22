@@ -1,0 +1,63 @@
+.nav {
+    padding-left: 60px;
+    padding-right: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    transition: 0.4s;
+    background-color: transparent;
+    z-index: 9999;
+}
+.nav.active{
+    background-color: #000411;
+}
+.nav-title {
+    font-family: K2D;
+    font-size: 42px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.nav-logo {
+    height: 63px; 
+    margin-right: 10px;  
+}
+.nav-ul {
+    padding-right: 17px;
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    gap: 65px;
+
+}
+.nav-ul li{
+    font-family: Outfit;
+    font-size: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.nav button{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.sign-up a{
+    font-weight:600;
+    background-color: #FFC205;
+    padding: 7px 14px;
+    border-radius: 45px;
+    align-items: center;
+}
+.nav-settings {
+    padding: 0;
+    display: flex;
+}
+
